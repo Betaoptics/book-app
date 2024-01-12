@@ -1,0 +1,38 @@
+#form-group-padding {
+    padding-bottom: 20px;
+  }
+
+  .label-padding {
+    padding-top: 20px;
+  }
+
+  #div-margin {
+    margin: 20px;
+  }
+
+  .row-alignment {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-props {
+    overflow: auto;
+    height: 100%;
+    min-height: 65vh;
+    box-shadow: 5px 5px 5px rgba(200, 200, 200, .8);
+    background-color: #f6f6f6;
+    background: #f6f6f6;
+  }
+
+  #btn-props {
+    margin: 1px;
+    min-width: 100%;
+    height: auto;
+  }
+
+  #p-props {
+    text-wrap: balance;
+    text-align: center;
+    align-content: center;
+    margin-top: 16px;
+  }

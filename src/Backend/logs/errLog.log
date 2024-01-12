@@ -1,0 +1,2 @@
+20240112	13:57:02	f063a7a0-094c-4747-8663-52b33ff4b94e	CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Book"	GET	/catalog/book/undefined	http://localhost:3000
+20240112	13:57:02	cb3d0397-7974-41ab-a544-b9d7f0306b48	CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Book"	GET	/catalog/book/undefined	http://localhost:3000
