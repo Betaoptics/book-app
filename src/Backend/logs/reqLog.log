@@ -553,3 +553,11 @@
 20240112	15:10:00	422bcbfd-dd27-4813-b026-97cb03cb8a3a	GET	/catalog/books	http://localhost:3000
 20240112	15:10:00	6a67ebc0-a79c-4a8e-a49e-0a452ec4d2bd	GET	/catalog/books	http://localhost:3000
 20240112	15:10:00	87de56c6-edde-47da-bc53-d4f239532dba	GET	/catalog/books	http://localhost:3000
+20240117	13:27:02	c0d75059-80d4-41c2-8901-a239a5f1cc98	OPTIONS	/catalog/books	http://localhost:3000
+20240117	13:27:02	8bb77b43-485f-40f3-91c0-541beeb1937a	OPTIONS	/catalog/books	http://localhost:3000
+20240117	13:27:02	565c9620-be3b-4af2-a204-bc89046246c3	OPTIONS	/catalog/books	http://localhost:3000
+20240117	13:27:02	2691bd0a-4904-43f0-b4ad-79b90b09c071	OPTIONS	/catalog/books	http://localhost:3000
+20240117	13:27:02	87a8b4a5-7026-48df-97a6-2de63cbefee4	GET	/catalog/books	http://localhost:3000
+20240117	13:27:02	a9d70b57-6456-448f-b8ba-a49b45860b6d	GET	/catalog/books	http://localhost:3000
+20240117	13:27:02	179d6f9e-5647-4696-8308-8ebbe5d58acf	GET	/catalog/books	http://localhost:3000
+20240117	13:27:02	d917bb20-165c-499e-a1e2-eeef4aac2889	GET	/catalog/books	http://localhost:3000
