@@ -1,2 +1,6 @@
 20240112	13:57:02	f063a7a0-094c-4747-8663-52b33ff4b94e	CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Book"	GET	/catalog/book/undefined	http://localhost:3000
 20240112	13:57:02	cb3d0397-7974-41ab-a544-b9d7f0306b48	CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Book"	GET	/catalog/book/undefined	http://localhost:3000
+20240118	18:43:16	e3be3cd0-d864-4a89-a3ca-aa65cb870126	Error: ENOENT: no such file or directory, stat 'E:\TYOT\book-app\Backend\views\404.html'	GET	/catalog/book/	http://localhost:3000
+20240118	18:45:23	2bcb0265-e2d4-4bfb-a742-c37177d9ad55	Error: ENOENT: no such file or directory, stat 'E:\TYOT\book-app\Backend\views\404.html'	GET	/catalog/book/	http://localhost:3000
+20240118	18:49:45	9ca5493d-97cf-48ef-9433-2184cb1797ca	Error: ENOENT: no such file or directory, stat 'E:\TYOT\book-app\Backend\views\404.html'	GET	/catalog/book/	http://localhost:3000
+20240118	18:52:05	2fc9e5b6-3460-4761-85a0-2e5d5eda493e	Error: ENOENT: no such file or directory, stat 'E:\TYOT\book-app\Backend\views\404.html'	GET	/catalog/book/	http://localhost:3000

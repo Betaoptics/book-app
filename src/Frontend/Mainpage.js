@@ -167,7 +167,7 @@ const handleCreate = () => {
 }
 
 // Update book data with PATCH request.
-const onSave = () => {
+const onUpdate = () => {
     if(!isLoading) {
         fetch(individual_book_url, PATCH_req)
         .then(async response => {
@@ -178,10 +178,7 @@ const onSave = () => {
            // If everything went as expected.
             if(book && (response.ok || response.status === 200 || response.status === 201)) {
                 setState(!state);
-                setMessage({error: false, message: 'Success! New book was created.'});
-                setAuthor('');
-                setTitle('');
-                setDescription('');
+                setMessage({error: false, message: 'Success! Book was updated.'});
             }
         })
         .catch(error => {
@@ -263,7 +260,7 @@ const AlertMessages = () => {
                         <Form.Group>
                             <div>
                                 <Button variant="primary" onClick={() => {handleCreate()}}>Save new</Button>{' '}
-                                <Button value={edited} variant={edited? "primary": "secondary"} disabled={edited? false : true} onClick={() => {onSave()}}>Save</Button>{' '}
+                                <Button value={edited} variant={edited? "primary": "secondary"} disabled={edited? false : true} onClick={() => {onUpdate()}}>Save</Button>{' '}
                                 <Button value={edited} 
                                 // variant="danger" 
                                 variant={edited? "danger": "secondary"} 

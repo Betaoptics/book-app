@@ -27,12 +27,12 @@ const updateBook = async (req, res) => {
     }
 
     // Get a book from MongoDB
-    const book = await Books.findOne({id: req.params._id}).exec();
+    const book = await Books.findOne({_id: req.params.id}).exec();
 
     // Check for duplicate titles from database and return error if duplicate title is found
     const duplicate = await Books.findOne({title: req.body?.title}).collation().lean().exec();
-
-    if(duplicate) {
+ 
+    if(duplicate && book?.title !== duplicate?.title) {
         return res.status(409).json({ message: 'Duplicate book!' }); // Conflict
     } 
 
