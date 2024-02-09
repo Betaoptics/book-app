@@ -13,7 +13,8 @@
 
 # misc
 .DS_Store
-# .env #normally would ignore .env as well but for the sake of demo this is not ignored
+#normally would ignore .env as well but for the sake of demo this is not ignored
+.env 
 .env.local
 .env.development.local
 .env.test.local
